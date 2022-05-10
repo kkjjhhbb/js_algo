@@ -1,5 +1,5 @@
+const arr = ["🍌", "🍓", "🍇", "🍓"];
 const change = () => {
-  const arr = ["🍌", "🍓", "🍇", "🍓"];
   const ans = [];
   arr.forEach(function (v, i) {
     if (v !== "🍓") {
@@ -11,3 +11,8 @@ const change = () => {
   return ans;
 };
 console.log(change());
+function replace(array, from, to) {
+  const domap = arr.map((value) => (item === from ? to : item));
+}
+
+console.log(domap);
